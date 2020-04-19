@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "xos4 Terminus:pixelsize=12";
+
+/* disable bold, italic and roman fonts globally */
+int disablebold = 1;
+int disableitalic = 1;
+int disableroman = 0;
+
 static int borderpx = 2;
 
 /*
