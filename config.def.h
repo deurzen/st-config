@@ -5,7 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "xos4 Terminus:pixelsize=12";
+/* static char *font = "xos4 Terminus:pixelsize=12"; */
+/* static char *font = "Terminus:pixelsize=14"; */
+/* static char *font = "GohuFont:pixelsize=14"; */
+static char *font = "GohuFont:pixelsize=14";
 
 /* disable bold, italic and roman fonts globally */
 int disablebold = 1;
@@ -140,8 +143,12 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 22;
+/* static unsigned int cols = 60; */
+/* static unsigned int rows = 19; */
+/* static unsigned int cols = 80; */
+/* static unsigned int rows = 22; */
+static unsigned int cols = 60;
+static unsigned int rows = 18;
 
 /*
  * Default colour and shape of the mouse cursor
